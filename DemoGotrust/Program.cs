@@ -1,3 +1,4 @@
+using AutoWrapper;
 using DAL.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,5 +25,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseApiResponseAndExceptionWrapper();
 
 app.Run();
