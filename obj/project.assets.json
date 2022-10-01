@@ -5486,8 +5486,8 @@
     },
     "DAL/1.0.0": {
       "type": "project",
-      "path": "../DAL/DAL.csproj",
-      "msbuildProject": "../DAL/DAL.csproj"
+      "path": "DAL/DAL.csproj",
+      "msbuildProject": "DAL/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5532,6 +5532,12 @@
             },
             "D:\\C#\\DAL\\DAL.csproj": {
               "projectPath": "D:\\C#\\DAL\\DAL.csproj"
+            },
+            "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj": {
+              "projectPath": "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj"
+            },
+            "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj"
             }
           }
         }

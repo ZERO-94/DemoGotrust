@@ -5270,11 +5270,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\C#\\DAL\\DAL.csproj",
+      "projectPath": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\DAL\\obj\\",
+      "outputPath": "D:\\C#\\DemoGotrust\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\BAL\\BAL.csproj": {}
+    "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj": {}
   },
   "projects": {
-    "D:\\C#\\BAL\\BAL.csproj": {
+    "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\BAL\\BAL.csproj",
+        "projectUniqueName": "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj",
         "projectName": "BAL",
-        "projectPath": "D:\\C#\\BAL\\BAL.csproj",
+        "projectPath": "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj",
         "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\BAL\\obj\\",
+        "outputPath": "D:\\C#\\DemoGotrust\\BAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\C#\\DAL\\DAL.csproj"
+              "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\C#\\DAL\\DAL.csproj": {
+    "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\C#\\DAL\\DAL.csproj",
+        "projectPath": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\DAL\\obj\\",
+        "outputPath": "D:\\C#\\DemoGotrust\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",

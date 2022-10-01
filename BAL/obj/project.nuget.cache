@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PZweO3wupklA+YmXVOAKQSOgfDdibSr7wvEn9JvY8/9fLE0oQBeDkkRdUkPf0XT4UDJLX8nqYhPTuxKIMZOkjA==",
+  "dgSpecHash": "DBnhScRnKfXE3IP9NlGkMtI3jUeRypnsIsrNZ3SMXQYKfJ8QL00K9LRPFnvijAyKeqwBVEMt3VxgA8v334x+lQ==",
   "success": true,
-  "projectFilePath": "D:\\C#\\BAL\\BAL.csproj",
+  "projectFilePath": "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiman\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\kiman\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

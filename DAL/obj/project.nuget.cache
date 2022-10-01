@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OBUTcIMDV//hHKjteN/QpWZZQeWR1pmVP1V7JQvBkpzqnYBSWJSlaxeQ1i5yDSxuc1F7vjuXnproS+wElXpr8Q==",
+  "dgSpecHash": "lC8qaH8FUFM7KWvVd9BiUbGEU1AI7Fs9iasfAJnPp37VNOxt7I1eqCyPHSxc5G6o+VPqk2NyQZtKYOWl8FutvA==",
   "success": true,
-  "projectFilePath": "D:\\C#\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kiman\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
