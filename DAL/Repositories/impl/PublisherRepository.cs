@@ -54,8 +54,11 @@ namespace DAL.Repositories.impl
             {
                 if (publisher != null)
                 {
+                    //remove related books
+                    var obj1 = publisher.Books.ToList().Select(book => _context.Remove(book));
+
                     var obj = _context.Remove(publisher);
-                    if (obj != null)
+                    if (obj != null && obj1.FirstOrDefault(o => o == null) == null)
                     {
                         _context.SaveChangesAsync();
                         return obj.Entity;
@@ -74,11 +77,11 @@ namespace DAL.Repositories.impl
             }
         }
 
-        public IEnumerable<Publisher> GetAll()
+        public IQueryable<Publisher> GetAll()
         {
             try
             {
-                return _context.Publishers.ToList();
+                return _context.Publishers.Include("Books").AsNoTracking();
             }
             catch (Exception)
             {
@@ -90,7 +93,7 @@ namespace DAL.Repositories.impl
         {
             try
             {
-                return _context.Publishers.FirstOrDefault(publisher => publisher.PublisherId.Equals(id));
+                return _context.Publishers.Include("Books").FirstOrDefault(publisher => publisher.PublisherId.Equals(id));
             }
             catch (Exception)
             {

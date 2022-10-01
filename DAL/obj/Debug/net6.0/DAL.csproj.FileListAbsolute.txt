@@ -12,3 +12,17 @@ D:\C#\DAL\obj\Debug\net6.0\DAL.dll
 D:\C#\DAL\obj\Debug\net6.0\ref\DAL.dll
 D:\C#\DAL\obj\Debug\net6.0\DAL.pdb
 D:\C#\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\C#\Demo\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\C#\Demo\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\C#\Demo\DAL\bin\Debug\net6.0\DAL.dll
+D:\C#\Demo\DAL\bin\Debug\net6.0\ref\DAL.dll
+D:\C#\Demo\DAL\bin\Debug\net6.0\DAL.pdb
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.dll
+D:\C#\Demo\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.pdb
+D:\C#\Demo\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache

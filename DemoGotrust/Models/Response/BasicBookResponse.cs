@@ -9,7 +9,7 @@ namespace DemoGotrust.Models.Response
         public string BookName { get; set; } = null!;
         public int? Quantity { get; set; }
         public string? AuthorName { get; set; }
-        public virtual BasicPublisher? Publisher { get; set; }
+        public virtual BasicPublisherResponse? Publisher { get; set; }
 
         public BasicBookResponse(Book book)
         {
@@ -17,7 +17,7 @@ namespace DemoGotrust.Models.Response
             BookName = book.BookName;
             Quantity = book.Quantity;
             AuthorName = book.AuthorName;
-            Publisher = new BasicPublisher { Description = book.Publisher.Description, PublisherId = book.PublisherId, PublisherName = book.Publisher.PublisherName };
+            Publisher = new BasicPublisherResponse { Description = book.Publisher.Description, PublisherId = book.PublisherId, PublisherName = book.Publisher.PublisherName };
             
         }
     }

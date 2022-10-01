@@ -10,7 +10,7 @@ namespace DAL.Repositories
     public interface IPublisherRepository
     {
         public Publisher GetById(string id);
-        public IEnumerable<Publisher> GetAll();
+        public IQueryable<Publisher> GetAll();
         public Publisher Create(Publisher publisher);
         public Publisher Update(Publisher publisher);
         public Publisher Delete(Publisher publisher);
