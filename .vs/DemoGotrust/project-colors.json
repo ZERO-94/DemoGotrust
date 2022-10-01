@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "34d4a5c2-3830-47f4-8eda-f24bd7593bca": {
+      "ProjectGuid": "34d4a5c2-3830-47f4-8eda-f24bd7593bca",
+      "DisplayName": "DemoGotrust",
+      "ColorIndex": 0
+    },
+    "ef0adf4a-9863-473a-b262-3ded9918f370": {
+      "ProjectGuid": "ef0adf4a-9863-473a-b262-3ded9918f370",
+      "DisplayName": "DatabaseDemoGotrust",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f396013f-d484-4696-92bb-7cd4073ecc14": {
+      "ProjectGuid": "f396013f-d484-4696-92bb-7cd4073ecc14",
+      "DisplayName": "BAL",
+      "ColorIndex": 2
+    },
+    "813f3d8a-5c16-4ff9-ab0a-78bc64ba9641": {
+      "ProjectGuid": "813f3d8a-5c16-4ff9-ab0a-78bc64ba9641",
+      "DisplayName": "DAL",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
