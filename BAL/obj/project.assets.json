@@ -5194,11 +5194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj",
+      "projectUniqueName": "D:\\C#\\Demo\\BAL\\BAL.csproj",
       "projectName": "BAL",
-      "projectPath": "D:\\C#\\DemoGotrust\\BAL\\BAL.csproj",
+      "projectPath": "D:\\C#\\Demo\\BAL\\BAL.csproj",
       "packagesPath": "C:\\Users\\kiman\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\DemoGotrust\\BAL\\obj\\",
+      "outputPath": "D:\\C#\\Demo\\BAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5215,8 +5215,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\C#\\DemoGotrust\\DAL\\DAL.csproj"
+            "D:\\C#\\Demo\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\C#\\Demo\\DAL\\DAL.csproj"
             }
           }
         }
