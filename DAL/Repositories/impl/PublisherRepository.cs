@@ -13,9 +13,9 @@ namespace DAL.Repositories.impl
     {
         private readonly BookPublisherContext _context;
 
-        public PublisherRepository()
+        public PublisherRepository(BookPublisherContext context)
         {
-            _context = new BookPublisherContext();
+            _context = context;
         }
 
         public Publisher Create(Publisher publisher)

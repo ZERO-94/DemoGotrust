@@ -14,11 +14,11 @@ namespace DemoGotrust.Controllers
     public class BookController : ControllerBase
     {
 
-        private readonly BookService _bookService;
+        private readonly IBookService _bookService;
 
-        public BookController()
+        public BookController(IBookService bookService)
         {
-            _bookService = new BookService();
+            _bookService = bookService;
         }
 
         // GET: api/<BookController>

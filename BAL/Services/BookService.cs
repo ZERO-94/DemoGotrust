@@ -11,15 +11,15 @@ using System.Threading.Tasks;
 
 namespace BAL.Services
 {
-    public class BookService
+    public class BookService : IBookService
     {
         private readonly IBookRepository _bookRepository;
         private readonly IPublisherRepository _publisherRepository;
 
-        public BookService()
+        public BookService(IBookRepository bookRepository, IPublisherRepository publisherRepository)
         {
-            _bookRepository = new BookRepository();
-            _publisherRepository = new PublisherRepository();
+            _bookRepository = bookRepository;
+            _publisherRepository = publisherRepository;
         }
 
         public async Task<Book> GetBookbyId(string id)

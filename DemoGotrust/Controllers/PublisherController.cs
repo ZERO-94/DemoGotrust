@@ -14,11 +14,11 @@ namespace DemoGotrust.Controllers
     public class PublisherController : ControllerBase
     {
 
-        private readonly PublisherService _publisherService;
+        private readonly IPublisherService _publisherService;
 
-        public PublisherController()
+        public PublisherController(IPublisherService publisherService)
         {
-            _publisherService = new PublisherService();
+            _publisherService = publisherService;
         }
 
         // GET: api/<PublisherController>
