@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DemoGotrust.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : ControllerBase
@@ -43,7 +44,6 @@ namespace DemoGotrust.Controllers
         }
 
         // GET api/<BookController>/5
-        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<BasicBookResponse>> Get(string id)
         {
