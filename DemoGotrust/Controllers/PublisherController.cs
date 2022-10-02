@@ -47,7 +47,7 @@ namespace DemoGotrust.Controllers
         {
             try { 
                 Publisher publisher = await _publisherService.GetPublisherbyId(id);
-                return publisher != null ? Ok(new BasicPublisherResponse(publisher)) : null;
+                return publisher != null ? Ok(new BasicPublisherResponse(publisher)) : NoContent();
             }
             catch (Exception ex)
             {

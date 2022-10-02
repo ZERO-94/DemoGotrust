@@ -25,7 +25,17 @@
       "ProjectGuid": "813f3d8a-5c16-4ff9-ab0a-78bc64ba9641",
       "DisplayName": "DAL",
       "ColorIndex": 3
+    },
+    "e8e2ad0e-e465-4e80-8615-4d375113da4f": {
+      "ProjectGuid": "e8e2ad0e-e465-4e80-8615-4d375113da4f",
+      "DisplayName": "BAL",
+      "ColorIndex": 4
+    },
+    "bc1b4a82-ebde-442e-9cc4-6d82b5bdafa9": {
+      "ProjectGuid": "bc1b4a82-ebde-442e-9cc4-6d82b5bdafa9",
+      "DisplayName": "DAL",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }

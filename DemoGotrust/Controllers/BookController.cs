@@ -3,6 +3,7 @@ using DAL.Models;
 using DAL.Utilities;
 using DemoGotrust.Models.Request;
 using DemoGotrust.Models.Response;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -42,12 +43,13 @@ namespace DemoGotrust.Controllers
         }
 
         // GET api/<BookController>/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<BasicBookResponse>> Get(string id)
         {
             try { 
                 Book book = await _bookService.GetBookbyId(id);
-                return book != null ? Ok(new BasicBookResponse(book)) : null;
+                return book != null ? Ok(new BasicBookResponse(book)) : NoContent();
             }
             catch (Exception ex)
             {
