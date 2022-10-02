@@ -54,11 +54,8 @@ namespace DAL.Repositories.impl
             {
                 if (publisher != null)
                 {
-                    //remove related books
-                    var obj1 = publisher.Books.ToList().Select(book => _context.Remove(book));
-
                     var obj = _context.Remove(publisher);
-                    if (obj != null && obj1.FirstOrDefault(o => o == null) == null)
+                    if (obj != null)
                     {
                         _context.SaveChangesAsync();
                         return obj.Entity;
